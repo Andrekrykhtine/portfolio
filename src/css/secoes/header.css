@@ -1,19 +1,21 @@
+
 .header {
-    padding: 30px 15px;
+    padding: 2px 15px;
+    background-color: rgb(94, 94, 94);
 }
 
 .header .logo {
     font-family: var(--fonte-secundaria);
     font-size: var(--fonte-extra-grande);
     color: var(--cor-branca);
-    border: 2px solid var(--cor-branca);
     border-radius: 50%;
-    width: 65px;
-    height: 65px;
+    width: 100px;
+    height: 100px;
     line-height: 55px;
     text-align: center;
     text-decoration: underline;
     transition: 0.2s;
+    
 }
 
 .header a:hover .logo {

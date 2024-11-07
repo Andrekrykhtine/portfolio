@@ -5,6 +5,8 @@
     justify-content: center;    
     flex-direction: row;
     flex-wrap: wrap;
+    background: url('../../imagens/Gemini_Generated_Image_hgl9wyhgl9wyhgl9.jpg') center center no-repeat;
+
 }
 
 .habilidades .container-habilidades .informacoes{
