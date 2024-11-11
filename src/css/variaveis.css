@@ -3,7 +3,7 @@
     --cor-secundaria: #FD6C22;    
     --cor-branca: #fff;
     --cor-fundo-escuro: #040203;    
-    --cor-fundo-cinza-escuro: #282828;
+    --cor-fundo-cinza-escuro: rgb(19, 124, 132);
     --cor-fundo-cinza-claro: #353535;    
   }
     
@@ -17,5 +17,5 @@
   }
   
   :root {
-    --mobile-padding: 30px;
+    --mobile-padding: 2px;
   }
