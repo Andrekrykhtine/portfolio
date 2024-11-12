@@ -1,7 +1,7 @@
 
 .header {
     padding: 2px 15px;
-    background-color: rgb(19, 124, 132);
+    background-color: var(--cor-fundo-principal) ;
 }
 
 .header .logo {
