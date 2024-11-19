@@ -1,11 +1,21 @@
 /* SOBRE MIM */
 .sobre-mim .imagem-sobre-mim {    
-    max-width: 40%;
-    padding: 0 15px;
-    
-}
+    max-width: 35%;
+    border: 1rem outset silver;
+ 
+  box-shadow: 0rem 0rem 0rem 2rem rgb(1, 1, 70);
+  border-radius: 12px;
+  margin: 2rem;
 
-.sobre-mim .imagem-sobre-mim .img-box {
+}
+.sobre-mim .row{
+    margin: 2rem;
+}
+ 
+  
+ 
+
+/* .sobre-mim .imagem-sobre-mim .img-box {
     padding: 15px;
     border-radius: 5px;
     text-align: center;
@@ -16,22 +26,25 @@
     border: 10px solid transparent;
     border-radius: 5px;
   
-}
+} */
 
 .sobre-mim .informacoes-sobre-mim {    
     max-width: 60%;
     padding: 0 25px;   
     align-self: center; 
     
+
+    
 }
 
 .sobre-mim .informacoes-sobre-mim .botoes {
     margin-top: 50px;
+    text-align: center;
 }
 
 .sobre-mim .informacoes-sobre-mim p {
     font-size: 1.8rem;
-    font-weight: 300;
+    font-weight: 500;
     margin-bottom: 20px;
 }
 
