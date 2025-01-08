@@ -4,9 +4,7 @@
     display: flex;
     justify-content: center;    
     flex-direction: row;
-    flex-wrap: wrap;
-    
-    
+    flex-wrap: wrap; 
 }
 
 .habilidades .container-habilidades .informacoes{
