@@ -6,6 +6,7 @@
   box-shadow: 0rem 0rem 0rem 2rem rgb(1, 1, 70);
   border-radius: 12px;
   margin: 2rem;
+  background-color: white;
 
 }
 .sobre-mim .row{
@@ -15,18 +16,6 @@
   
  
 
-/* .sobre-mim .imagem-sobre-mim .img-box {
-    padding: 15px;
-    border-radius: 5px;
-    text-align: center;
-   
-}
-
-.sobre-mim .imagem-sobre-mim img {
-    border: 10px solid transparent;
-    border-radius: 5px;
-  
-} */
 
 .sobre-mim .informacoes-sobre-mim {    
     max-width: 60%;
@@ -40,6 +29,7 @@
 .sobre-mim .informacoes-sobre-mim .botoes {
     margin-top: 50px;
     text-align: center;
+    font-weight: 700;
 }
 
 .sobre-mim .informacoes-sobre-mim p {

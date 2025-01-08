@@ -28,14 +28,14 @@
 }
 
 .habilidades .container-habilidades .informacoes h3 {
-    font-size: var(--fonte-extra-grande);
+    font-size: var(--fonte-grande);
     font-weight: 500;
     margin-bottom: 20px;
-    color: var(--cor-primaria);      
+    color: var(--cor-branca);      
 }
 
 .habilidades .container-habilidades .informacoes p {
-    font-size: 1.8rem;
+    font-size: 1.5rem;
     font-family: var(--fonte-secundaria);
 }
 
