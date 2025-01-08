@@ -8,10 +8,10 @@
 }
 
 .elemento {
-   
+
     width: 600px;
     height: 250px;
-    background-color: rgba(0, 0, 0, 0.3); 
+    background-color: rgba(0, 0, 0, 0.3);
     justify-content: center;
     border-radius: 15px;
 }
@@ -22,12 +22,15 @@
 }
 
 @media(max-width: 1280px) {
-    .home .texto-home, .home .img-home {
+
+    .home .texto-home,
+    .home .img-home {
         flex: 0 0 1000%;
         max-width: 100%;
         text-align: center;
         padding: 0 var(--mobile-padding);
     }
+
     .home .img-home {
         margin-top: 50px;
     }

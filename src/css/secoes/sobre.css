@@ -1,29 +1,24 @@
 /* SOBRE MIM */
-.sobre-mim .imagem-sobre-mim {    
+.sobre-mim .imagem-sobre-mim {
     max-width: 35%;
     border: 1rem outset silver;
- 
-  box-shadow: 0rem 0rem 0rem 2rem rgb(1, 1, 70);
-  border-radius: 12px;
-  margin: 2rem;
-  background-color: white;
-
+    box-shadow: 0rem 0rem 0rem 2rem rgb(1, 1, 70);
+    border-radius: 12px;
+    margin: 2rem;
+    background-color: white;
 }
-.sobre-mim .row{
+
+.sobre-mim .row {
     margin: 2rem;
 }
- 
-  
- 
 
-
-.sobre-mim .informacoes-sobre-mim {    
+.sobre-mim .informacoes-sobre-mim {
     max-width: 60%;
-    padding: 0 25px;   
-    align-self: center; 
-    
+    padding: 0 25px;
+    align-self: center;
 
-    
+
+
 }
 
 .sobre-mim .informacoes-sobre-mim .botoes {
@@ -38,18 +33,18 @@
     margin-bottom: 20px;
 }
 
-@media(max-width: 1280px) { 
-    .sobre-mim .row{
+@media(max-width: 1280px) {
+    .sobre-mim .row {
         justify-content: center;
     }
 
-    .sobre-mim .imagem-sobre-mim {        
+    .sobre-mim .imagem-sobre-mim {
         max-width: 100%;
         padding: 0 var(--mobile-padding);
         margin-bottom: 50px;
     }
 
-    .sobre-mim .informacoes-sobre-mim {  
+    .sobre-mim .informacoes-sobre-mim {
         padding: 0 var(--mobile-padding);
         text-align: center;
     }
@@ -61,8 +56,8 @@
     }
 }
 
-@media(max-width:768px){
-    .sobre-mim .informacoes-sobre-mim {  
-        max-width: 100%;                   
+@media(max-width:768px) {
+    .sobre-mim .informacoes-sobre-mim {
+        max-width: 100%;
     }
 }
