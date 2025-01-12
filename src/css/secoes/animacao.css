@@ -16,13 +16,13 @@
 
 .shiny-text {
     font-size: 3rem;
-    color: #fff;
+    color: var(--cor-branca);
     position: relative;
     overflow: hidden;
     display: inline-block;
 }
 
-.shiny-text::before {
+.shiny-text:hover::before {
     content: '';
     position: absolute;
     top: 0;
@@ -41,4 +41,39 @@
     100% {
         left: -50%;
     }
+}
+
+.portfolio-item {
+    position: relative;
+   
+}
+
+.portfolio-item img {
+    width: 100px;
+    height: auto;
+    border: 2px solid #000;
+    border-radius: 10px;
+    transition: transform 0.3s;
+}
+
+
+
+.tooltip {
+    position: absolute;
+    bottom: 110%;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: rgba(0, 0, 0, 0.8);
+    color: var(--cor-branca);
+    padding: 10px;
+    border-radius: 5px;
+    white-space: rap;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+    pointer-events: none;
+    font-size: 0.9rem;
+}
+
+.portfolio-item:hover .tooltip {
+    opacity: 1;
 }

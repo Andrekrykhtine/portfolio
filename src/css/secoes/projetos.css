@@ -63,3 +63,16 @@
     padding-top: 10px;
     bottom: 0;
 }
+
+@media (min-width: 1300px) {
+    .projetos .container-projetos {
+        grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+}}
+@media (max-width: 815px) {
+    .projetos .container-projetos {
+        grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+}}
+@media (max-width: 450px) {
+    .projetos .container-projetos {
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+}}
