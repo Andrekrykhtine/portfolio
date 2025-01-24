@@ -1,8 +1,8 @@
 /* SOBRE MIM */
 .sobre-mim .imagem-sobre-mim {
     max-width: 35%;
-    border: 1rem outset silver;
-    box-shadow: 0rem 0rem 0rem 2rem rgb(1, 1, 70);
+    border: 1rem outset var(--cor-primaria);
+    box-shadow: 0rem 0rem 0rem 2rem var(--cor-fundo-escuro);
     border-radius: 12px;
     margin: 2rem;
     background-color:var(--cor-branca);

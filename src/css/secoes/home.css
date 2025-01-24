@@ -10,7 +10,7 @@
 .elemento {
     width: 600px;
     height: 250px;
-    background-color: rgba(0, 0, 0, 0.3);
+    background-color: #0000004d;
     justify-content: center;
     border-radius: 15px;
 }
@@ -18,9 +18,8 @@
 .home .texto-home {
     letter-spacing: 2px;
     padding-top: 20px;
-    
-
 }
+
 .redes-sociais{
     padding-top: 20px;
 }

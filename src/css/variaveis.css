@@ -1,10 +1,10 @@
 :root {
-  --cor-primaria: rgba(168, 168, 168, 0.945);
-  --cor-secundaria: #4a22fd;
+  --cor-primaria: #a8a8a8f1;
+  --cor-secundaria: #7f7e7ef1;
   --cor-branca: #fff;
   --cor-fundo-escuro: #010146;
   --cor-fundo-principal: #137c84;
-  --cor-fundo-cinza-claro: #353535;
+  --cor-preta: #000000;
 }
 
 :root {
@@ -14,6 +14,7 @@
   --fonte-extra-grande: 3rem;
   --fonte-grande: 2.4rem;
   --fonte-normal: 1.6rem;
+  --fonte-pequena: 1.1rem;
 }
 
 :root {
